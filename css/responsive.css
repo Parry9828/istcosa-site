@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+  .second_banner h3.text-white {
+    font-size: 30px;
+    text-align: center;
+}
+.second_banner p.text-white {
+    font-size: 16px;
+    text-align: center;
+}
+.her-banner {
+    padding: 50px
+}
+.logo {
+    width: 50% !important;
+}
+}

@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- --------------------Bootstrap---------------------- -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- -------------------------Bootstrap js---------------------- -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- -------------------------custom css---------------------- -->
+    <link rel="stylesheet" href="./css/custome.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- -------------------------custom scss------------------------ -->
+    <link rel="stylesheet" href="./scss/style.css">
+    <!-- -------------------------Swiper css------------------------ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+
+<body>
+
+    <!-- ========================navbar start================================== -->
+    <div class="container">
+        <nav>
+            <div class="navbar">
+                <i class='bx bx-menu'></i>
+                <div class="logo"><a href="#"><img class="logo_img" src="https://www.istcosa.com/assets/images/Logo.png"
+                            alt=""></a>
+                </div>
+                <div class="nav-links">
+                    <div class="sidebar-logo">
+                        <span class="logo-name"><img class="logo_img"
+                                src="https://www.istcosa.com/assets/images/Logo.png" alt=""></span>
+                        <i class='bx bx-x'></i>
+                    </div>
+                    <ul class="links">
+                        <li><a href="#">Home</a></li>
+                        <li>
+                            <a href="#">About Us</a>
+                            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                            <ul class="htmlCss-sub-menu sub-menu">
+                                <li><a href="#">Memorandum</a></li>
+                                <li><a href="#">History</a></li>
+                                <li><a href="#">Principals</a></li>
+                                <li><a href="#">Presidents</a></li>
+                                <li><a href="#">Patrons</a></li>
+                                <!-- <li class="more">
+                                <span><a href="#">More</a>
+                                    <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                                </span>
+                                <ul class="more-sub-menu sub-menu">
+                                    <li><a href="#">Neumorphism</a></li>
+                                    <li><a href="#">Pre-loader</a></li>
+                                    <li><a href="#">Glassmorphism</a></li>
+                                </ul>
+                            </li> -->
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Team</a>
+                            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                            <ul class="js-sub-menu sub-menu">
+                                <li><a href="#">Executive Committee</a></li>
+                                <li><a href="#">Coordinators</a></li>
+                                <li><a href="#">Life Members</a></li>
+                                <li><a href="#">Mentors</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Events</a>
+                            <i class='bx bxs-chevron-down event-arrow arrow '></i>
+                            <ul class="event-sub-menu sub-menu">
+                                <li><a href="#">Upcoming Events</a></li>
+                                <li><a href="#">Images</a></li>
+                                <li><a href="#">Videos</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Opportunity</a>
+                            <i class='bx bxs-chevron-down opportunity-arrow arrow '></i>
+                            <ul class="opportunity-sub-menu sub-menu">
+                                <li><a href="#">Career</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Membership</a>
+                            <i class='bx bxs-chevron-down membership-arrow arrow '></i>
+                            <ul class="membership-sub-menu sub-menu">
+                                <li><a href="#">Career</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <span class="d-flex"><button class="login_btn">Sign up/Sign in</button>
+                    <div class="search-box">
+
+                        <i class='bx bx-search'></i>
+                        <div class="input-box">
+                            <input type="text" placeholder="Search...">
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </nav>
+    </div>
+    <!-- ========================navbar end================================== -->
+
+    <!-- ========================banner start================================== -->
+    <div class="her-banner">
+        <div class="container hero">
+            <div class="row">
+                <div class="col-lg-6 second_banner">
+                    <h3 class="text-white">There are many
+                        variations of passages</h3>
+                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt .</p>
+                    <a href="" class="btn_members">Life Members</a>
+                </div>
+                <div class="col-lg-6 ">
+                    <img src="./images/banner image.png" class="w-100" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========================banner end================================== -->
+
+    <!-- Swiper -->
+    <div class="swper_banner">
+        <div class="container py-5 ">
+            <h2 class="text-center">What's New</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide news_slider">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="position-relative overlay">
+                                    <img src="./images/what new 4.png" alt="">
+                                    <p class=" position-absolute date_news translate-middle text-center">
+                                        14<span class="text-center">May-24024</span></p>
+                                </div>
+                                <div class="des_pra">
+                                    <h4>Contrary to popular belief</h4>
+                                    <p class="des">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry.
+                                    </p>
+                                    <span><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p class="locations">W Acacia Ave, El Segundo, CA 90245, USA</p>
+                                    </span>
+                                    <a href="#" class="read_more">read more</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide news_slider">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="position-relative overlay">
+                                    <img src="./images/what new 2.png" alt="">
+                                    <p class=" position-absolute date_news translate-middle text-center">
+                                        14<span class="text-center">May-24024</span></p>
+                                </div>
+                                <div class="des_pra">
+                                    <h4>Contrary to popular belief</h4>
+                                    <p class="des">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry.
+                                    </p>
+                                    <span><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p class="locations">W Acacia Ave, El Segundo, CA 90245, USA</p>
+                                    </span>
+                                    <a href="#" class="read_more">read more</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide news_slider">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="position-relative overlay">
+                                    <img src="./images/what new 3.png" alt="">
+                                    <p class=" position-absolute date_news translate-middle text-center">
+                                        14<span class="text-center">May-24024</span></p>
+                                </div>
+                                <div class="des_pra">
+                                    <h4>Contrary to popular belief</h4>
+                                    <p class="des">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry.
+                                    </p>
+                                    <span><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p class="locations">W Acacia Ave, El Segundo, CA 90245, USA</p>
+                                    </span>
+                                    <a href="#" class="read_more">read more</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide news_slider">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="position-relative overlay">
+                                    <img src="./images/what new 4.png" alt="">
+                                    <p class=" position-absolute date_news translate-middle text-center">
+                                        14<span class="text-center">May-24024</span></p>
+                                </div>
+                                <div class="des_pra">
+                                    <h4>Contrary to popular belief</h4>
+                                    <p class="des">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry.
+                                    </p>
+                                    <span><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p class="locations">W Acacia Ave, El Segundo, CA 90245, USA</p>
+                                    </span>
+                                    <a href="#" class="read_more">read more</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide news_slider">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="position-relative overlay">
+                                    <img src="./images/what new 3.png" alt="">
+                                    <p class=" position-absolute date_news translate-middle text-center">
+                                        14<span class="text-center">May-24024</span></p>
+                                </div>
+                                <div class="des_pra">
+                                    <h4>Contrary to popular belief</h4>
+                                    <p class="des">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry.
+                                    </p>
+                                    <span><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <p class="locations">W Acacia Ave, El Segundo, CA 90245, USA</p>
+                                    </span>
+                                    <a href="#" class="read_more">read more</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <!-- ==========================about us section==================== -->
+    <div class="about_us_istcosa pt-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6 ">
+                    <img src="./images/about image.png" class="w-75 sm-mx-auto">
+                </div>
+                <div class="col-lg-6">
+                    <h2>About Us ISTCOSA</h2>
+                    <p class="py-4">The Indo Swiss Old Students’ Association (ISTCOSA) was formed to bring the alumni
+                        under one umbrella.
+                        Since then the
+                        association has risen from being merely a gathering for various activities like lunch and dinner
+                        Get
+                        Together to a
+                        strong fraternity with goals and achievements. Members and friends in different parts of the
+                        world
+                        with a will to
+                        promote fraternity gathered and helped set the goals and formulated methods to achieve set
+                        goals.
+                        The governing body is
+                        elected with members having positive social experiences.</p>
+                    <a href="#" class="btn_members ">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================lifemember=============== -->
+    <div class="lifemember">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5 text-center lifemember1 sm-p-3">
+                    <img src="./images/join istcosa for a lifetime image.png" alt="" class="w-75">
+                    <p><a href="" class="btn_members">join a istcosa for a Lifetime</a></p>
+                </div>
+                <div class="col-lg-7 lifemember2 py-5">
+                    <div class="container">
+                        <h2 class="text-center">ISTCOSA LIFEMEMBER</h2>
+                        <div class="swiper mySwiper py-3">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide alumni_slider">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="position-relative istocosa_alumni_slider text-center">
+                                                <img src="./images/LIFEMEMBER 1.png" alt="" class="img-fluid w-100">
+                                            </div>
+                                            <div class="des_pra text-center gy-3 px-4">
+                                                <p class="mt-3 d-flex flex-column"><strong>Virender Mohan
+                                                        Marya</strong><span class="member_id">
+                                                        (6329)</span></p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide alumni_slider">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="position-relative istocosa_alumni_slider text-center">
+                                                <img src="./images/LIFEMEMBER 2.png" alt="" class="img-fluid w-100">
+                                            </div>
+                                            <div class="des_pra text-center gy-3 px-4">
+                                                <p class="mt-3 d-flex flex-column"><strong>Gurjeet Singh
+                                                        Panesar</strong><span class="member_id">
+                                                        (6335)</span></p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide alumni_slider">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="position-relative istocosa_alumni_slider text-center">
+                                                <img src="./images/LIFEMEMBER 3.png" alt="" class="img-fluid w-100">
+                                            </div>
+                                            <div class="des_pra text-center gy-3 px-4">
+                                                <p class="mt-3 d-flex flex-column"><strong>J. S. Sandhu</strong><span
+                                                        class="member_id">
+                                                        (8113)</span></p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide alumni_slider">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="position-relative istocosa_alumni_slider text-center">
+                                                <img src="./images/LIFEMEMBER 3.png" alt="" class="img-fluid w-100">
+                                            </div>
+                                            <div class="des_pra text-center gy-3 px-4">
+                                                <p class="mt-3 d-flex flex-column"><strong>J. S. Sandhu</strong><span
+                                                        class="member_id">
+                                                        (8113)</span></p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide alumni_slider">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="position-relative istocosa_alumni_slider text-center">
+                                                <img src="./images/LIFEMEMBER 1.png" alt="" class="img-fluid w-100">
+                                            </div>
+                                            <div class="des_pra text-center gy-3 px-4">
+                                                <p class="mt-3 d-flex flex-column"><strong>Virender Mohan
+                                                        Marya</strong><span class="member_id">
+                                                        (6329)</span></p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===========================Contribute Now section=========================== -->
+    <div class="contribute_now py-5">
+        <div class="container py-5">
+            <h2 class="text-center">Contribute Now</h2>
+            <p class="text-center px-5 mx-5 text-white">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard
+                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                a type specimen
+                book.</p>
+            <div class="row gy-4">
+                <div class="col-lg-6 col-md-12">
+                    <div class="row g-0 bg-light contributes1">
+                        <div class="col-lg-6 p-0">
+                            <img src="./images/Contribute istcosa.png" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-lg-6 p-3 text-center mt-4">
+                            <h3 class="text-center">Contribute
+                                ISTCOSA</h3>
+                            <p class="pb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard
+                                dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                                scrambled it to make a type specimen
+                                book. It has survived.</p>
+                            <a href="#" class="btn_members mt-3">contribute NOW</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="row g-0 bg-light contributes2">
+                        <div class="col-lg-6 p-0">
+                            <img src="./images/Contributei Care fund.png" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-lg-6 p-3 text-center mt-4 py-sm-4">
+                            <h3 class="text-center">Contribute
+                                iCare fund</h3>
+                            <p class="pb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard
+                                dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                                scrambled it to make a type specimen
+                                book. It has survived .</p>
+                            <a href="#" class="btn_members mt-3 ">contribute NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===============Celebrating=============================== -->
+    <div class="celebrating py-5">
+        <div class="container">
+            <h2 class="text-center">Celebrating</h2>
+
+            <div class="row mt-4 py-5">
+                <div class="col-lg-6 col-md-12 text-center border-2 border-end border-dark">
+                    <img src="./images/Golden Jubilee Batch 1974.png" alt="" class="img-fluid w-50">
+                    <p class="mt-4 w-50 mx-auto batch fs-4">Golden Jubilee Batch 1974</p>
+                </div>
+                <div class="col-lg-6 col-md-12 text-center">
+                    <img src="./images/Silver Jubilee Batch 1999.png" alt="" class="img-fluid w-50">
+                    <p class="mt-4 w-50 mx-auto batch fs-4">Silver Jubilee Batch 1999</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===========================Our Sponsors====================== -->
+
+
+    <div class="our_sponsors">
+        <div class="container py-5 ">
+            <h2 class="text-center">Contribute Now</h2>
+            <p class="text-center px-5 mx-5 text-white py-4">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry.
+                Lorem Ipsum has been the industry's standard
+                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                a type
+                specimen
+                book.</p>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide news_slider">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="position-relative sponser_slider text-center">
+                                    <img src="./images/Sponsors 1.png" alt="" class="img-fluid w-100">
+                                    <img src="./images/logo @ 1.png" alt="" class=" mt-3 logo_company">
+                                </div>
+                                <div class="des_pra">
+                                    <hr>
+                                    <h4>Contrary to popular belief</h4>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide news_slider">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="position-relative sponser_slider text-center">
+                                    <img src="./images/Sponsors 2.png" alt="" class="img-fluid w-100">
+                                    <img src="./images/logo @2.jpg" alt="" class=" mt-3 logo_company">
+
+                                </div>
+                                <div class="des_pra">
+                                    <hr>
+                                    <h4>Contrary to popular belief</h4>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide news_slider">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="position-relative sponser_slider text-center">
+                                    <img src="./images/Sponsors 3.png" alt="" class="img-fluid w-100">
+                                    <img src="./images/logo @ 3.png" alt="" class="  mt-3 logo_company">
+
+                                </div>
+                                <div class="des_pra">
+                                    <hr>
+                                    <h4>Contrary to popular belief</h4>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide news_slider">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="position-relative sponser_slider text-center">
+                                    <img src="./images/Sponsors 4.png" alt="" class="img-fluid w-100">
+                                    <img src="./images/logo @ 4.png" alt="" class="  mt-3 logo_company">
+
+                                </div>
+                                <div class="des_pra">
+                                    <hr>
+                                    <h4>Contrary to popular belief</h4>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide news_slider">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="position-relative sponser_slider text-center text-center">
+                                    <img src="./images/Sponsors 2.png" alt="" class="img-fluid w-100">
+                                    <img src="./images/logo @ 3.png" alt="" class="  mt-3 logo_company">
+
+                                </div>
+                                <div class="des_pra">
+                                    <hr>
+                                    <h4>Contrary to popular belief</h4>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ---------------------------------istcosa gallery------------------------- -->
+    <div class="istocosa_gallery">
+        <div class="container py-5 ">
+            <h2 class="text-center">ISTCOSA Gallery</h2>
+            <p class="text-center px-5 mx-5  py-4">But I must explain to you how all this mistaken idea of denouncing
+                pleasure and praising pain was born and I will give
+                you a complete account of the system.</p>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide gallery_slider">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="position-relative istocosa_gallery_slider text-center">
+                                    <img src="./images/Gallery 2.png" alt="" class="img-fluid w-100">
+                                    <div class="hover-icon">
+                                        <i class="fa fa-plus" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <div class="des_pra text-center gy-3">
+
+                                    <h4 class="mt-3">Contrary to popular belief</h4>
+                                    <p class="gallery_info">Istcosa Gallery <span><i class="fa fa-calendar"
+                                                aria-hidden="true"></i> October 25, 2023</span></p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide gallery_slider">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="position-relative istocosa_gallery_slider text-center">
+                                    <img src="./images/Gallery 1.png" alt="" class="img-fluid w-100">
+                                    <div class="hover-icon">
+                                        <i class="fa fa-plus" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <div class="des_pra text-center gy-3">
+
+                                    <h4 class="mt-3">Contrary to popular belief</h4>
+                                    <p class="gallery_info">Istcosa Gallery <span><i class="fa fa-calendar"
+                                                aria-hidden="true"></i> October 25, 2023</span></p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide gallery_slider">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="position-relative istocosa_gallery_slider text-center">
+                                    <img src="./images/Gallery 3.png" alt="" class="img-fluid w-100">
+                                    <div class="hover-icon">
+                                        <i class="fa fa-plus" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <div class="des_pra text-center gy-3">
+
+                                    <h4 class="mt-3">Contrary to popular belief</h4>
+                                    <p class="gallery_info">Istcosa Gallery <span><i class="fa fa-calendar"
+                                                aria-hidden="true"></i> October 25, 2023</span></p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide gallery_slider">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="position-relative istocosa_gallery_slider text-center">
+                                    <img src="./images/Gallery 4.png" alt="" class="img-fluid w-100">
+                                    <div class="hover-icon">
+                                        <i class="fa fa-plus" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <div class="des_pra text-center gy-3">
+
+                                    <h4 class="mt-3">Contrary to popular belief</h4>
+                                    <p class="gallery_info">Istcosa Gallery <span><i class="fa fa-calendar"
+                                                aria-hidden="true"></i> October 25, 2023</span></p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide gallery_slider">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="position-relative istocosa_gallery_slider text-center">
+                                    <img src="./images/Gallery 2.png" alt="" class="img-fluid w-100">
+                                    <div class="hover-icon">
+                                        <i class="fa fa-plus" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <div class="des_pra text-center gy-3">
+
+                                    <h4 class="mt-3">Contrary to popular belief</h4>
+                                    <p class="gallery_info">Istcosa Gallery <span><i class="fa fa-calendar"
+                                                aria-hidden="true"></i> October 25, 2023</span></p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide gallery_slider">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="position-relative istocosa_gallery_slider text-center">
+                                    <img src="./images/Gallery 3.png" alt="" class="img-fluid w-100">
+                                    <div class="hover-icon">
+                                        <i class="fa fa-plus" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <div class="des_pra text-center gy-3">
+
+                                    <h4 class="mt-3">Contrary to popular belief</h4>
+                                    <p class="gallery_info">Istcosa Gallery <span><i class="fa fa-calendar"
+                                                aria-hidden="true"></i> October 25, 2023</span></p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ==============================Alumni============================== -->
+    <div class="alumni bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="container py-5 ">
+                        <h2 class="text-center">Distinguished Alumni</h2>
+                        <p class="text-center px-5 mx-5  py-4">But I must explain to you how all this mistaken idea of
+                            denouncing pleasure and praising pain was born and I will give
+                            you a complete account of the system.</p>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide alumni_slider">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="position-relative istocosa_alumni_slider text-center">
+                                                <img src="./images/Distinguished Alumni 1.png" alt=""
+                                                    class="img-fluid w-100">
+                                            </div>
+                                            <div class="des_pra text-center gy-3 px-4">
+                                                <p class="mt-3 d-flex justify-content-between"><strong>R.K.
+                                                        Jindal</strong><span> (7114)</span></p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide alumni_slider">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="position-relative istocosa_alumni_slider text-center">
+                                                <img src="./images/Distinguished Alumni 2.png" alt=""
+                                                    class="img-fluid w-100">
+                                            </div>
+                                            <div class="des_pra text-center gy-3 px-4">
+                                                <p class="mt-3 d-flex justify-content-between"><strong>R.K.
+                                                        Jindal</strong><span> (7114)</span></p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide alumni_slider">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="position-relative istocosa_alumni_slider text-center">
+                                                <img src="./images/Distinguished Alumni 3.png" alt=""
+                                                    class="img-fluid w-100">
+                                            </div>
+                                            <div class="des_pra text-center gy-3 px-4">
+                                                <p class="mt-3 d-flex justify-content-between"><strong>R.K.
+                                                        Jindal</strong><span> (7114)</span></p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide alumni_slider">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="position-relative istocosa_alumni_slider text-center">
+                                                <img src="./images/Distinguished Alumni 4.png" alt=""
+                                                    class="img-fluid w-100">
+                                            </div>
+                                            <div class="des_pra text-center gy-3 px-4">
+                                                <p class="mt-3 d-flex justify-content-between"><strong>R.K.
+                                                        Jindal</strong><span> (7114)</span></p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide alumni_slider">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="position-relative istocosa_alumni_slider text-center">
+                                                <img src="./images/Distinguished Alumni 2.png" alt=""
+                                                    class="img-fluid w-100">
+                                            </div>
+                                            <div class="des_pra text-center gy-3 px-4">
+                                                <p class="mt-3 d-flex justify-content-between"><strong>R.K.
+                                                        Jindal</strong><span> (7114)</span></p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ==============================footer================== -->
+
+
+    <footer class="footer-main bg-dark p-0">
+        <div class="container" style="max-width: 1600px;">
+            <div class="row address-main py-5">
+                <div class="col-lg-4 col-sm-12 col-xs-12 col-md-6 col-xl-3">
+                    <div class="address-box clearfix">
+                        <div class="add-icon">
+                            <img src="./images/Aseet Pal Malik (8057).png" alt="">
+                        </div>
+                        <div class="add-content">
+                            <h6 class="text-white p-0">Aseet Pal Malik (8057)</h6> <span class="text-white">
+                                <p></p>
+                            </span>
+                            <p class="m-0">( President ) <br><i class="fa fa-phone"></i>
+                                8800098398 <br>
+                                <i class="fa fa-envelope"></i>
+                                president@istcosa.com
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="address-box clearfix">
+                        <div class="add-icon">
+                            <img src="./images/Girbur Goyal (200418).png" alt="">
+                        </div>
+                        <div class="add-content">
+                            <h6 class="text-white p-0">Aseet Pal Malik (8057)</h6> <span class="text-white">
+                                <p></p>
+                            </span>
+                            <p class="m-0">( Gen. Secretary ) <br><i class="fa fa-phone"></i>
+                                9814214344 <br>
+                                <i class="fa fa-envelope"></i>
+                                gensecretary@istcosa.com
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="address-box clearfix">
+                        <div class="add-icon">
+                            <img src="./images/Inderpreet Singh (9968).png" alt="">
+                        </div>
+                        <div class="add-content">
+                            <h6 class="text-white p-0">Inderpreet Singh (9968)</h6> <span class="text-white">
+                                <p></p>
+                            </span>
+                            <p class="m-0">( Admin )<br><i class="fa fa-phone"></i>
+                                9872469996 <br>
+                                <i class="fa fa-envelope"></i>
+                                admin@istcosa.com
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xl-2 col-sm-12 col-xs-12 col-md-6 text-white footer_menu_strp mx-lg-4">
+                    <h3>Alumni</h3>
+                    <p><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="" <span="">Registered
+                            (1846)</a>
+                    </p>
+                    <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href=""><span>Non-Registered
+                                (1698)</span></a>
+                    </p>
+                    <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href=""><span>Obituary
+                                (50)</span></a>
+                    </p>
+                    <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href=""><span>Life
+                                Member(434)</span></a>
+                    </p>
+
+                </div>
+                <div class="col-lg-3 col-xl-2 col-sm-12 col-xs-12 col-md-4 text-white footer_menu_strp">
+                    <h3>QUICK LINK</h3>
+                    <p><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href=""><span>About Us</span></a>
+                    </p>
+                    <p><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href=""><span>Executive
+                                Committee</span></a>
+                    </p>
+                    <p><i class="fa fa-angle-double-right" aria-hidden="true"></i><a
+                            href=""><span>Co-Ordinator</span></a>
+                    </p>
+                    <p><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href=""><span>Life
+                                Member</span></a>
+                    </p>
+                </div>
+                <div class="col-lg-6 col-xl-2 col-sm-12 col-xs-12 col-md-3 text-white footer_menu_strp">
+                    <h3></h3>
+                    <p class="mt-5"><i class="fa fa-angle-double-right" aria-hidden="true"></i><a
+                            href=""><span>Mentor</span></a>
+                    </p>
+                    <p><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href=""><span>Events</span></a>
+                    </p>
+                    <p><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href=""><span>Membership</span></a>
+                    </p>
+                    <p><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href=""><span>Contact Us</span></a>
+                    </p>
+                </div>
+                <div class="col-lg-6 col-xl-2 col-sm-12 col-xs-12 col-md-5 text-white footer_menu_loc">
+                    <h3>Address</h3>
+                    <p><i class="fa fa-map-marker" aria-hidden="true"></i>
+                        ISTCOSA Office Old Hostel Building
+                        Indo-Swiss Training Centre CSIO,
+                        Sector 30-C Chandigarh Pin-160030</p>
+                    <div class="social_media_linls py-3">
+                        <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a><a href=""><i
+                                class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a><a href=""><i
+                                class="fa fa-youtube-play" aria-hidden="true"></i></a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+                <section class="copyright text-white border-top border-light">
+                    <div class="container" style="max-width: 1600px;">
+        <div class="row">
+            <div class="col-lg-4 col-md-5">
+                <p class="m-0 py-3">Privacy Policy | Terms & Condition</p>
+            </div>
+            <div class="col-lg-8 col-md-7">
+                <p class="m-0 py-3">© Copyright 2024 ISTCOSA. Powerd By Teejaysoft.com</p>
+            </div>
+        </div>
+                    </div>
+            
+                </section>
+
+
+    </footer>
+    <script src="./js/custome.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 4, // Default for large screens
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            // autoplay: {
+            //     delay: 2500,
+            //     disableOnInteraction: false,
+            // },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1, // 1 slide for mobile
+                    spaceBetween: 10,
+                },
+                640: {
+                    slidesPerView: 2, // 2 slides for tablets
+                    spaceBetween: 20,
+                },
+                1024: {
+                    slidesPerView: 4, // 4 slides for desktops
+                    spaceBetween: 30,
+                }
+            }
+        });
+
+
+
+
+    </script>
+    <script src="./js/header.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>
