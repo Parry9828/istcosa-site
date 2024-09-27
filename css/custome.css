@@ -2,6 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* ------------------toggle------------------- */
+
+
+.custome_breadcrumbs .breadcrumb-item+.breadcrumb-item::before {
+    float: left;
+    padding-right: var(--bs-breadcrumb-item-padding-x);
+    color: #ffffff;
+    content: var(--bs-breadcrumb-divider, "/");
+}
 img.logo_img {
   width: 150px;
 }
@@ -804,5 +812,9 @@ background: #edf2f2;
 
 .association_one i.fa-solid.fa-location-arrow {
     color: #6f0100;
+}
+/* ---------------------------------regulations---------------------- */
+.regulations{
+  background: #edf2f2;
 }
 
