@@ -818,3 +818,15 @@ background: #edf2f2;
   background: #edf2f2;
 }
 
+
+/* ------------------------historycss---------------------- */
+.history-banner {
+  background-image: url(/images/history_banner.jpg);
+  height: 300px;
+  width: 100%;
+  max-width: 100%;
+  padding: 70px 70px;
+  margin-top: 70px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
