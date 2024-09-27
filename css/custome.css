@@ -297,7 +297,40 @@ a.dropdown-item.active {
   background: #6f0100;
   color: #fff;
 } */
-
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #6f0100;
+    width: 100px;
+    transition-delay: 0s;
+}
+span.swiper-pagination-bullet {
+    width: 13px;
+    height: 10px;
+    display: inline-block;
+    background: #6f0100;
+    opacity: 0.2;
+    margin: 0 5px;
+    border-radius: 20px;
+    transition: opacity 0.5s, background-color 0.5s, width 0.5s;
+    transition-delay: 0.5s, 0.5s, 0s;
+}
+.our_sponsors span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #ffffff;
+    width: 100px;
+    transition-delay: 0s;
+}
+.our_sponsors span.swiper-pagination-bullet {
+    width: 13px;
+    height: 10px;
+    display: inline-block;
+    background: #ffffff;
+    opacity: 0.2;
+    margin: 0 5px;
+    border-radius: 20px;
+    transition: opacity 0.5s, background-color 0.5s, width 0.5s;
+    transition-delay: 0.5s, 0.5s, 0s;
+}
 /* ----------------------------banner------------------ */
 .her-banner {
   background-image: url(/images/banner\ bg.jpg);
@@ -320,6 +353,11 @@ a.dropdown-item.active {
 
 .second_banner p.text-white {
   font-size: 20px;
+}
+.swper_banner h2 {
+  color: #000000;
+  font-size: 45px;
+  font-family: "Poppins";
 }
 a.btn_members {
   background: #6f0100;
