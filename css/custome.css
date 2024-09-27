@@ -822,11 +822,28 @@ background: #edf2f2;
 /* ------------------------historycss---------------------- */
 .history-banner {
   background-image: url(/images/history_banner.jpg);
-  height: 300px;
+  height: auto;
   width: 100%;
   max-width: 100%;
   padding: 70px 70px;
   margin-top: 70px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.history_background{
+  background-image: url(/images/history1.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.second_histoty_banner p{
+  max-width: 65%;
+}
+.second_histoty_banner .content_pra{
+position: absolute;
+top: 8em;
+width: 100%;
+height: auto;
+display: flex;
+align-items: center;
 }

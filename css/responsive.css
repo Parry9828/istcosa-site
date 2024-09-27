@@ -103,11 +103,29 @@ a.btn_members {
   /* background: red; */
   padding: 0 15px !important;
 }
+.second_histoty_banner img.w-75.img-fluid.mt-5.poster_img {
+    /* width: 100% !important; */
+    display: none;
+}
+
+.second_histoty_banner p {
+    max-width: 100% !important;
+    margin: 0px !important;
+    padding-right: 50px !important;
+}
+.second_histoty_banner .content_pra{
+position: absolute;
+top: 3em;
+width: 100%;
+height: auto;
+display: flex;
+align-items: center;
+margin-right: 90px !important;
+}
+
     }
 @media (max-width:800px){
-  nav{
-    /* position: relative; */
-  }
+
   .navbar .bx-menu{
     display: block;
   }
@@ -227,6 +245,15 @@ nav .navbar .links li .sub-menu li{
         text-transform: uppercase;
         font-size: 11px;
     }
+    .second_histoty_banner .content_pra{
+position: relative;
+top: 0em;
+width: 100%;
+height: auto;
+display: flex;
+align-items: center;
+margin-right: 90px !important;
+}
 }
 @media (max-width:370px){
   nav .navbar .nav-links{
