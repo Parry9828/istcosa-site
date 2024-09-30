@@ -919,11 +919,7 @@ align-items: center;
   padding: 70px 70px;
   margin-top: 70px;
 }
-.alumin_info{
-margin-top: -39px;
-    background: #fff;
-    padding: 16px;
-}
+
 .alumin_info p.card-text {
     color: #6f0100;
     font-size: 16px;
@@ -985,11 +981,24 @@ margin-top: -39px;
     font-size: 18px;
     font-weight: 500;
 }
+/* -------------------------Patrons-banner------------------ */
+.Patrons-banner{
+    background-image: url(/images/patrons/banner.jpg);
+  height: 300px;
+  width: 100%;
+  max-width: 100%;
+  padding: 70px 70px;
+  margin-top: 70px;
+}
 
-
-
-
-/* -----------------------team commitemember----------------- */
+.commitee-banner{
+   background-image: url(/images/Committee-Members/banner.jpg);
+  height: 300px;
+  width: 100%;
+  max-width: 100%;
+  padding: 70px 70px;
+  margin-top: 70px;
+}
 .committee .committee_sub:first-child {
     background: #fce3e2;
     display: flex;
@@ -1010,3 +1019,6 @@ margin-top: -39px;
     font-size: 20px;
     font-weight: 400;
 }
+
+
+
