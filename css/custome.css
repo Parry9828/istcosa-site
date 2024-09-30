@@ -337,7 +337,7 @@ span.swiper-pagination-bullet {
   height: auto;
   width: 100%;
   max-width: 100%;
-  padding: 70px 70px;
+  padding: 32px 10px;
   margin-top: 70px;
 }
 .second_banner {
@@ -724,6 +724,7 @@ span.member_id {
   padding: 3px 0;
   margin-bottom: 8px;
   background-color: #292929 !important;
+  border-right: 5px solid #6f0100;
 }
 
 .add-icon {
@@ -828,7 +829,7 @@ span.member_id {
   height: 300px;
   width: 100%;
   max-width: 100%;
-  padding: 70px 70px;
+  padding: 32px 10px;
   margin-top: 70px;
 }
 .breadcrumb li.breadcrumb-item {
@@ -863,7 +864,7 @@ background: #edf2f2;
   height: 300px;
   width: 100%;
   max-width: 100%;
-  padding: 70px 70px;
+  padding: 32px 10px;
   margin-top: 70px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -916,7 +917,7 @@ align-items: center;
   height: 300px;
   width: 100%;
   max-width: 100%;
-  padding: 70px 70px;
+  padding: 32px 10px;
   margin-top: 70px;
 }
 
@@ -970,7 +971,7 @@ align-items: center;
   height: 300px;
   width: 100%;
   max-width: 100%;
-  padding: 70px 70px;
+  padding: 32px 10px;
   margin-top: 70px;
 }
 .card.alumin_name_cards {
@@ -987,7 +988,7 @@ align-items: center;
   height: 300px;
   width: 100%;
   max-width: 100%;
-  padding: 70px 70px;
+  padding: 32px 10px;
   margin-top: 70px;
 }
 
@@ -996,7 +997,7 @@ align-items: center;
   height: 300px;
   width: 100%;
   max-width: 100%;
-  padding: 70px 70px;
+  padding: 32px 10px;
   margin-top: 70px;
 }
 .committee .committee_sub:first-child {
@@ -1022,3 +1023,51 @@ align-items: center;
 
 
 
+/* ----------------------coordinators-------------- */
+.coordinators-banner{
+      background-image: url(/images/coordinators/BANNER\ 2.jpg);
+  height: 300px;
+  width: 100%;
+  max-width: 100%;
+  padding: 32px 10px;
+  margin-top: 70px;
+}
+.chief_coordinator_bg{
+       background-image: url(/images/coordinators/bg\ 1.jpg);
+  width: 100%;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.chief_coordinator_bg .col-xl-4.col-lg-4:first-child{
+display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.chief_coordinator_bg button.btn.chief_coordinator_btn {
+    background: #6f0100;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.chief_coordinator_info_second p {
+    color: #6f0100;
+}
+.coordinators_name p {
+    background: #fce3e2;
+    margin: 0px;
+    padding: 10px 10px;
+    font-size: 14px;
+}
+
+.coordinators-card_sub p {
+    color: #6f0100;
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+.coordinators_cards img.card-img-top {
+    height: 300px;
+    object-fit: fill;
+}
