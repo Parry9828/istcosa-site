@@ -909,3 +909,13 @@ align-items: center;
     font-weight: 200;
     text-transform: uppercase;
 }
+
+/* ------------------------principals------------------- */
+.principals-banner {
+  background-image: url(/images/banner_principals.jpg);
+  height: 300px;
+  width: 100%;
+  max-width: 100%;
+  padding: 70px 70px;
+  margin-top: 70px;
+}
