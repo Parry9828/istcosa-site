@@ -965,3 +965,23 @@ margin-top: -39px;
     font-weight: 200;
     text-transform: uppercase;
 }
+
+/* ------------------------Presidents-------------------- */
+
+
+.presidents-banner {
+  background-image: url(/images/president/president_banner.jpg);
+  height: 300px;
+  width: 100%;
+  max-width: 100%;
+  padding: 70px 70px;
+  margin-top: 70px;
+}
+.card.alumin_name_cards {
+    height: 36vh;
+    max-height: 100%;
+}
+.card.alumin_name_cards h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
