@@ -985,3 +985,28 @@ margin-top: -39px;
     font-size: 18px;
     font-weight: 500;
 }
+
+
+
+
+/* -----------------------team commitemember----------------- */
+.committee .committee_sub:first-child {
+    background: #fce3e2;
+    display: flex;
+    justify-content: center;
+}
+.committee .committee_sub p:first-child {
+    color: #6f0100;
+    font-size: 17px;
+    font-weight: 400;
+}
+.committee .committee_sub p:nth-child(3) {
+    color: #6f0100;
+    font-size: 17px;
+    font-weight: 400;
+}
+.committee .committee_sub p:nth-child(2) {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
