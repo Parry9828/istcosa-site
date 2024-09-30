@@ -919,3 +919,20 @@ align-items: center;
   padding: 70px 70px;
   margin-top: 70px;
 }
+.alumin_info{
+margin-top: -39px;
+    background: #fff;
+    padding: 16px;
+}
+.alumin_info p.card-text {
+    color: #6f0100;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.alumin_info h5.card-title {
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    font-family: poppins;
+}
