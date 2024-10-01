@@ -1071,3 +1071,6 @@ display: flex;
     height: 300px;
     object-fit: fill;
 }
+.chief_coordinator_info img.text-end.arrow_img {
+    margin-right: -45px;
+}
