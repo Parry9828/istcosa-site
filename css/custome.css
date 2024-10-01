@@ -1074,3 +1074,10 @@ display: flex;
 .chief_coordinator_info img.text-end.arrow_img {
     margin-right: -45px;
 }
+.regional_oordinators p:nth-child(2) {
+    color: #6f0100;
+}
+img.flag_img {
+    width: 60% !important;
+    max-width: 100%;
+}
