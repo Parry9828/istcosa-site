@@ -1081,3 +1081,67 @@ img.flag_img {
     width: 60% !important;
     max-width: 100%;
 }
+
+
+/* ---------------------------------lifeMembers-------------------------- */
+.lifeMembers-banner{
+    background-image: url(/images/lifeMembers/banner\ \ 2.jpg);
+  height: 300px;
+  width: 100%;
+  max-width: 100%;
+  padding: 32px 10px;
+  margin-top: 70px;
+}
+.lifeMembers_info p:nth-child(2) {
+    color: #6f0100;
+}
+.lifeMembers_cards img{
+  max-height: 300px;
+}
+
+
+/* -----------------Mentor Members---------------- */
+.mentorMembers-banner{
+    background-image: url(/images/mentorMembers/banner\ \ 1.jpg);
+  height: 300px;
+  width: 100%;
+  max-width: 100%;
+  padding: 32px 10px;
+  margin-top: 70px;
+}
+.mentorMembers_info p:nth-child(2) {
+    color: #6f0100;
+}
+.mentorMembers_cards img{
+  max-height: 300px;
+}
+
+
+/* -----------------------------------Upcoming----------------------- */
+.upcoming_event_sub .fill {
+  margin: 20px auto;
+  width: fit-content;
+  text-align: center;
+  font-size: 100px;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px #6f0100;
+  position: relative;
+  cursor: pointer;
+  justify-content: center;
+}
+.fill::before {
+  position: absolute;
+  content: attr(data-text);
+  top: 0;
+  left: 0px;
+  -webkit-text-fill-color: #6f0100;
+  width: 0px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.fill:hover::before {
+  width: 100%;
+}
+.upcoming_event_sub p{
+  font-size: 80px;
+}
