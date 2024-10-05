@@ -3,7 +3,6 @@
 
 /* ------------------toggle------------------- */
 
-
 .custome_breadcrumbs .breadcrumb-item+.breadcrumb-item::before {
     float: left;
     padding-right: var(--bs-breadcrumb-item-padding-x);
@@ -848,7 +847,6 @@ display: flex;
 background: #edf2f2;
 }
 
-
 .association_one i.fa-solid.fa-location-arrow {
     color: #6f0100;
 }
@@ -856,7 +854,6 @@ background: #edf2f2;
 .regulations{
   background: #edf2f2;
 }
-
 
 /* ------------------------historycss---------------------- */
 .history-banner {
@@ -965,7 +962,6 @@ align-items: center;
 
 /* ------------------------Presidents-------------------- */
 
-
 .presidents-banner {
   background-image: url(/images/president/president_banner.jpg);
   height: 300px;
@@ -1020,8 +1016,6 @@ align-items: center;
     font-size: 20px;
     font-weight: 400;
 }
-
-
 
 /* ----------------------coordinators-------------- */
 .coordinators-banner{
@@ -1082,7 +1076,6 @@ img.flag_img {
     max-width: 100%;
 }
 
-
 /* ---------------------------------lifeMembers-------------------------- */
 .lifeMembers-banner{
     background-image: url(/images/lifeMembers/banner\ \ 2.jpg);
@@ -1098,7 +1091,6 @@ img.flag_img {
 .lifeMembers_cards img{
   max-height: 300px;
 }
-
 
 /* -----------------Mentor Members---------------- */
 .mentorMembers-banner{
@@ -1116,13 +1108,20 @@ img.flag_img {
   max-height: 300px;
 }
 
-
 /* -----------------------------------Upcoming----------------------- */
+.event-banner{
+   background-image: url(/images/lifeMembers/banner\ \ 2.jpg);
+  height: 300px;
+  width: 100%;
+  max-width: 100%;
+  padding: 32px 10px;
+  margin-top: 70px;
+}
 .upcoming_event_sub .fill {
   margin: 20px auto;
   width: fit-content;
   text-align: center;
-  font-size: 100px;
+  font-size: 120px;
   -webkit-text-fill-color: white;
   -webkit-text-stroke: 1px #6f0100;
   position: relative;
@@ -1145,3 +1144,39 @@ img.flag_img {
 .upcoming_event_sub p{
   font-size: 80px;
 }
+.col-xl-12.col-lg-12.col-sm-12.col-md-12.upcoming_event_sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first_col {
+    background: #6f0100;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0px;
+}
+
+.block-border {
+  position: relative;
+  /* max-width: 400px; */
+  /* float: left; */
+}
+
+.bg-block {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  right: -21px;
+  bottom: -20px;
+}
+
+.content-border {
+  border: solid 2px #6f0100;
+  position: relative;
+  margin-top: -6px;
+  padding-top: 17px !important;
+  left: 5px;
+  padding: 15px;
+}
+

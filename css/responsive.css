@@ -34,8 +34,18 @@ a.btn_members {
 .chief_coordinator_bg .col-xl-4.col-lg-4 .arrow_img:first-child {
     display: none;
 }
+.upcoming_event_sub .fill {
+    margin: 20px auto;
+    width: fit-content;
+    text-align: center;
+    font-size: 65px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px #6f0100;
+    position: relative;
+    cursor: pointer;
+    justify-content: center;
 }
-
+}
 
 @media (max-width:920px) {
   nav .navbar{
@@ -273,3 +283,4 @@ margin-right: 90px !important;
 } 
 
 }
+
