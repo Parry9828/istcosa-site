@@ -1208,4 +1208,22 @@ img.flag_img {
 .second_col h1 {
     font-weight: 600;
 }
+.vanue_date {
+  background-image: url(/images/events/bg\ 2.jpg);
+
+}
+.vanue_date i.fa.fa {
+    font-size: 50px;
+}
+.vanue_date h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 18px;
+}
+.vanue_events_loc{
+    background: #6f0100;
+    padding: 10px;
+    font-size: 19px;
+    font-weight: 200;
+}
 
