@@ -3,11 +3,11 @@
 
 /* ------------------toggle------------------- */
 
-.custome_breadcrumbs .breadcrumb-item+.breadcrumb-item::before {
-    float: left;
-    padding-right: var(--bs-breadcrumb-item-padding-x);
-    color: #ffffff;
-    content: var(--bs-breadcrumb-divider, "/");
+.custome_breadcrumbs .breadcrumb-item + .breadcrumb-item::before {
+  float: left;
+  padding-right: var(--bs-breadcrumb-item-padding-x);
+  color: #ffffff;
+  content: var(--bs-breadcrumb-divider, "/");
 }
 img.logo_img {
   width: 150px;
@@ -297,38 +297,38 @@ a.dropdown-item.active {
   color: #fff;
 } */
 span.swiper-pagination-bullet.swiper-pagination-bullet-active {
-    opacity: 1;
-    background: #6f0100;
-    width: 100px;
-    transition-delay: 0s;
+  opacity: 1;
+  background: #6f0100;
+  width: 100px;
+  transition-delay: 0s;
 }
 span.swiper-pagination-bullet {
-    width: 13px;
-    height: 10px;
-    display: inline-block;
-    background: #6f0100;
-    opacity: 0.2;
-    margin: 0 5px;
-    border-radius: 20px;
-    transition: opacity 0.5s, background-color 0.5s, width 0.5s;
-    transition-delay: 0.5s, 0.5s, 0s;
+  width: 13px;
+  height: 10px;
+  display: inline-block;
+  background: #6f0100;
+  opacity: 0.2;
+  margin: 0 5px;
+  border-radius: 20px;
+  transition: opacity 0.5s, background-color 0.5s, width 0.5s;
+  transition-delay: 0.5s, 0.5s, 0s;
 }
 .our_sponsors span.swiper-pagination-bullet.swiper-pagination-bullet-active {
-    opacity: 1;
-    background: #ffffff;
-    width: 100px;
-    transition-delay: 0s;
+  opacity: 1;
+  background: #ffffff;
+  width: 100px;
+  transition-delay: 0s;
 }
 .our_sponsors span.swiper-pagination-bullet {
-    width: 13px;
-    height: 10px;
-    display: inline-block;
-    background: #ffffff;
-    opacity: 0.2;
-    margin: 0 5px;
-    border-radius: 20px;
-    transition: opacity 0.5s, background-color 0.5s, width 0.5s;
-    transition-delay: 0.5s, 0.5s, 0s;
+  width: 13px;
+  height: 10px;
+  display: inline-block;
+  background: #ffffff;
+  opacity: 0.2;
+  margin: 0 5px;
+  border-radius: 20px;
+  transition: opacity 0.5s, background-color 0.5s, width 0.5s;
+  transition-delay: 0.5s, 0.5s, 0s;
 }
 /* ----------------------------banner------------------ */
 .her-banner {
@@ -805,7 +805,6 @@ span.member_id {
   display: flex;
   align-items: center;
   gap: 10px;
-  
 }
 
 .footer_menu_strp i.fa.fa-angle-double-right {
@@ -838,20 +837,19 @@ span.member_id {
 .breadcrumb a {
   color: #fff;
 }
-.association_one{
-display: flex;
-    gap: 15px;
-
+.association_one {
+  display: flex;
+  gap: 15px;
 }
-.association{
-background: #edf2f2;
+.association {
+  background: #edf2f2;
 }
 
 .association_one i.fa-solid.fa-location-arrow {
-    color: #6f0100;
+  color: #6f0100;
 }
 /* ---------------------------------regulations---------------------- */
-.regulations{
+.regulations {
   background: #edf2f2;
 }
 
@@ -866,46 +864,46 @@ background: #edf2f2;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.history_background{
+.history_background {
   background-image: url(/images/history1.jpg);
   height: auto;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.second_histoty_banner p{
+.second_histoty_banner p {
   max-width: 65%;
 }
-.second_histoty_banner .content_pra{
-position: absolute;
-top: 8em;
-width: 100%;
-height: auto;
-display: flex;
-align-items: center;
+.second_histoty_banner .content_pra {
+  position: absolute;
+  top: 8em;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
 }
-.history-three-colum{
+.history-three-colum {
   border-radius: 0px 0px 0px 39px;
 }
 .history-three-colum h3 {
-    font-size: 18px;
-    font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .history-three-colum p {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .history-three-colum a.btn_members {
-    background: #6f0100;
-    color: #fff;
-    text-decoration: none;
-    padding: 14px 10px;
-    border: 1px solid;
-    border-radius: 50px;
-    font-size: 15px;
-    font-family: "Poppins";
-    font-weight: 200;
-    text-transform: uppercase;
+  background: #6f0100;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 10px;
+  border: 1px solid;
+  border-radius: 50px;
+  font-size: 15px;
+  font-family: "Poppins";
+  font-weight: 200;
+  text-transform: uppercase;
 }
 
 /* ------------------------principals------------------- */
@@ -919,45 +917,45 @@ align-items: center;
 }
 
 .alumin_info p.card-text {
-    color: #6f0100;
-    font-size: 16px;
-    font-weight: 300;
+  color: #6f0100;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 .alumin_info h5.card-title {
-    font-size: 18px;
-    color: #000;
-    font-weight: 500;
-    font-family: poppins;
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
+  font-family: poppins;
 }
 .alumin_name_cards img {
-    width: 100%;
-    height: 28vh;
+  width: 100%;
+  height: 28vh;
 }
 
-.principals_contribute{
+.principals_contribute {
   border-radius: 0px 0px 0px 39px;
 }
 .principals_contribute h3 {
-    font-size: 18px;
-    font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .principals_contribute p {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .principals_contribute a.btn_members {
-    background: #6f0100;
-    color: #fff;
-    text-decoration: none;
-    padding: 14px 10px;
-    border: 1px solid;
-    border-radius: 50px;
-    font-size: 15px;
-    font-family: "Poppins";
-    font-weight: 200;
-    text-transform: uppercase;
+  background: #6f0100;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 10px;
+  border: 1px solid;
+  border-radius: 50px;
+  font-size: 15px;
+  font-family: "Poppins";
+  font-weight: 200;
+  text-transform: uppercase;
 }
 
 /* ------------------------Presidents-------------------- */
@@ -971,16 +969,16 @@ align-items: center;
   margin-top: 70px;
 }
 .card.alumin_name_cards {
-    height: 36vh;
-    max-height: 100%;
+  height: 36vh;
+  max-height: 100%;
 }
 .card.alumin_name_cards h3 {
-    font-size: 18px;
-    font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
 }
 /* -------------------------Patrons-banner------------------ */
-.Patrons-banner{
-    background-image: url(/images/patrons/banner.jpg);
+.Patrons-banner {
+  background-image: url(/images/patrons/banner.jpg);
   height: 300px;
   width: 100%;
   max-width: 100%;
@@ -988,8 +986,8 @@ align-items: center;
   margin-top: 70px;
 }
 
-.commitee-banner{
-   background-image: url(/images/Committee-Members/banner.jpg);
+.commitee-banner {
+  background-image: url(/images/Committee-Members/banner.jpg);
   height: 300px;
   width: 100%;
   max-width: 100%;
@@ -997,88 +995,88 @@ align-items: center;
   margin-top: 70px;
 }
 .committee .committee_sub:first-child {
-    background: #fce3e2;
-    display: flex;
-    justify-content: center;
+  background: #fce3e2;
+  display: flex;
+  justify-content: center;
 }
 .committee .committee_sub p:first-child {
-    color: #6f0100;
-    font-size: 17px;
-    font-weight: 400;
+  color: #6f0100;
+  font-size: 17px;
+  font-weight: 400;
 }
 .committee .committee_sub p:nth-child(3) {
-    color: #6f0100;
-    font-size: 17px;
-    font-weight: 400;
+  color: #6f0100;
+  font-size: 17px;
+  font-weight: 400;
 }
 .committee .committee_sub p:nth-child(2) {
-    color: #000;
-    font-size: 20px;
-    font-weight: 400;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 /* ----------------------coordinators-------------- */
-.coordinators-banner{
-      background-image: url(/images/coordinators/BANNER\ 2.jpg);
+.coordinators-banner {
+  background-image: url(/images/coordinators/BANNER\ 2.jpg);
   height: 300px;
   width: 100%;
   max-width: 100%;
   padding: 32px 10px;
   margin-top: 70px;
 }
-.chief_coordinator_bg{
-       background-image: url(/images/coordinators/bg\ 1.jpg);
+.chief_coordinator_bg {
+  background-image: url(/images/coordinators/bg\ 1.jpg);
   width: 100%;
   max-width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.chief_coordinator_bg .col-xl-4.col-lg-4:first-child{
-display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.chief_coordinator_bg .col-xl-4.col-lg-4:first-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 .chief_coordinator_bg button.btn.chief_coordinator_btn {
-    background: #6f0100;
-    color: #fff;
-    padding: 15px 30px;
-    font-size: 18px;
-    font-weight: 300;
+  background: #6f0100;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 300;
 }
 .chief_coordinator_info_second p {
-    color: #6f0100;
+  color: #6f0100;
 }
 .coordinators_name p {
-    background: #fce3e2;
-    margin: 0px;
-    padding: 10px 10px;
-    font-size: 14px;
+  background: #fce3e2;
+  margin: 0px;
+  padding: 10px 10px;
+  font-size: 14px;
 }
 
 .coordinators-card_sub p {
-    color: #6f0100;
-    margin: 0px;
-    padding: 0px;
-    font-size: 14px;
+  color: #6f0100;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
 }
 .coordinators_cards img.card-img-top {
-    height: 300px;
-    object-fit: fill;
+  height: 300px;
+  object-fit: fill;
 }
 .chief_coordinator_info img.text-end.arrow_img {
-    margin-right: -45px;
+  margin-right: -45px;
 }
 .regional_oordinators p:nth-child(2) {
-    color: #6f0100;
+  color: #6f0100;
 }
 img.flag_img {
-    width: 60% !important;
-    max-width: 100%;
+  width: 60% !important;
+  max-width: 100%;
 }
 
 /* ---------------------------------lifeMembers-------------------------- */
-.lifeMembers-banner{
-    background-image: url(/images/lifeMembers/banner\ \ 2.jpg);
+.lifeMembers-banner {
+  background-image: url(/images/lifeMembers/banner\ \ 2.jpg);
   height: 300px;
   width: 100%;
   max-width: 100%;
@@ -1086,15 +1084,15 @@ img.flag_img {
   margin-top: 70px;
 }
 .lifeMembers_info p:nth-child(2) {
-    color: #6f0100;
+  color: #6f0100;
 }
-.lifeMembers_cards img{
+.lifeMembers_cards img {
   max-height: 300px;
 }
 
 /* -----------------Mentor Members---------------- */
-.mentorMembers-banner{
-    background-image: url(/images/mentorMembers/banner\ \ 1.jpg);
+.mentorMembers-banner {
+  background-image: url(/images/mentorMembers/banner\ \ 1.jpg);
   height: 300px;
   width: 100%;
   max-width: 100%;
@@ -1102,15 +1100,15 @@ img.flag_img {
   margin-top: 70px;
 }
 .mentorMembers_info p:nth-child(2) {
-    color: #6f0100;
+  color: #6f0100;
 }
-.mentorMembers_cards img{
+.mentorMembers_cards img {
   max-height: 300px;
 }
 
 /* -----------------------------------Upcoming----------------------- */
-.event-banner{
-   background-image: url(/images/lifeMembers/banner\ \ 2.jpg);
+.event-banner {
+  background-image: url(/images/lifeMembers/banner\ \ 2.jpg);
   height: 300px;
   width: 100%;
   max-width: 100%;
@@ -1141,20 +1139,21 @@ img.flag_img {
 .fill:hover::before {
   width: 100%;
 }
-.upcoming_event_sub p{
+.upcoming_event_sub p {
   font-size: 80px;
 }
 .col-xl-12.col-lg-12.col-sm-12.col-md-12.upcoming_event_sub {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 38px;
 }
 
 .first_col {
-    background: #6f0100;
-    color: #fff;
-    text-transform: uppercase;
-    padding: 0px;
+  background: #6f0100;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0px;
 }
 
 .block-border {
@@ -1178,5 +1177,35 @@ img.flag_img {
   padding-top: 17px !important;
   left: 5px;
   padding: 15px;
+}
+
+.qr_scan_content-border {
+  border: solid 2px #6f0100;
+  position: relative;
+  margin-top: -6px;
+  left: 5px;
+  padding: 0px;
+}
+.qr_scan_content-border p {
+  font-size: 15px;
+}
+
+.qr_scan_content-border h2 {
+  font-size: 32px;
+}
+
+.qr_scan_content-border .col-6.first_col {
+    padding: 15px;
+}
+.qr_scan_content-border img {
+    width: 70%;
+}
+
+.col-12.second_col p {
+    font-size: 22px;
+    font-family: sans-serif;
+}
+.second_col h1 {
+    font-weight: 600;
 }
 

@@ -45,6 +45,9 @@ a.btn_members {
     cursor: pointer;
     justify-content: center;
 }
+.upcoming_event_sub {
+    padding: 34px;
+}
 }
 
 @media (max-width:920px) {
