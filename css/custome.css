@@ -1182,7 +1182,7 @@ img.flag_img {
 .qr_scan_content-border {
   border: solid 2px #6f0100;
   position: relative;
-  margin-top: -6px;
+  margin-top: 25px;
   left: 5px;
   padding: 0px;
 }
@@ -1225,5 +1225,47 @@ img.flag_img {
     padding: 10px;
     font-size: 19px;
     font-weight: 200;
+}
+.post_events img.w-100.img-fluid {
+    height: 295px;
+    max-height: 295px;
+}
+  .post_events .icon-overlay a {
+    position: absolute;
+    bottom: 69px;
+    right: 0px;
+    font-size: 24px;
+    color: #ffffff; /* Adjust the color as needed */
+    background: #6f0100;
+    padding: 8px 20px;
+    rotate: -30de;
+}
+.post_events i.fas.fa-arrow-right {
+    rotate: -30deg;
+}
+
+.past_event_contribute {
+  border-radius: 0px 0px 0px 39px;
+}
+.past_event_contribute h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.past_event_contribute p {
+  font-size: 12px;
+}
+
+.past_event_contribute a.btn_members {
+  background: #6f0100;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 10px;
+  border: 1px solid;
+  border-radius: 50px;
+  font-size: 15px;
+  font-family: "Poppins";
+  font-weight: 200;
+  text-transform: uppercase;
 }
 
