@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <!-- --------------------Bootstrap---------------------- -->
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- -------------------------Bootstrap js---------------------- -->
@@ -19,6 +19,43 @@
     <!-- -------------------------Swiper css------------------------ -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        .element_text {
+	display: block;
+	padding-bottom: 3px;
+    text-align: center;
+}
+.element_text:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+    margin-top: 20px;
+	animation: underline 2s infinite;
+}
+@keyframes underline {
+  0% { width: 0%; background-color: #6f0100;}
+  100% {width: 30%; background-color: transparent;}
+}
+@keyframes underline1 {
+  0% { width: 0%; background-color: #ffffff;}
+  100% {width: 30%; background-color: transparent;}
+}
+        .element_contibute {
+	display: block;
+	padding-bottom: 3px;
+    text-align: center;
+}
+.element_contibute:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+    margin-top: 20px;
+	animation: underline1 2s infinite;
+}
+
+    </style>
 </head>
 
 <body>
@@ -45,9 +82,9 @@
                             <ul class="htmlCss-sub-menu sub-menu">
                                 <li><a href="/about/memorandum.html">Memorandum</a></li>
                                 <li><a href="/about/history.html">History</a></li>
-                                <li><a href="#">Principals</a></li>
-                                <li><a href="#">Presidents</a></li>
-                                <li><a href="#">Patrons</a></li>
+                                <li><a href="/about/principals.html">Principals</a></li>
+                                <li><a href="/about/presidents.html">Presidents</a></li>
+                                <li><a href="/about/patrons.html">Patrons</a></li>
                                 <!-- <li class="more">
                                 <span><a href="#">More</a>
                                     <i class='bx bxs-chevron-right arrow more-arrow'></i>
@@ -64,33 +101,34 @@
                             <a href="#">Team</a>
                             <i class='bx bxs-chevron-down js-arrow arrow '></i>
                             <ul class="js-sub-menu sub-menu">
-                                <li><a href="#">Executive Committee</a></li>
-                                <li><a href="#">Coordinators</a></li>
-                                <li><a href="#">Life Members</a></li>
-                                <li><a href="#">Mentors</a></li>
+                                <li><a href="/team/executiveCommitte.html">Executive Committee</a></li>
+                                <li><a href="/team/coOrdinator.html">Coordinators</a></li>
+                                <li><a href="/team/lifeMembers.html">Life Members</a></li>
+                                <li><a href="/team/mentor.html">Mentors</a></li>
                             </ul>
                         </li>
                         <li>
                             <a href="#">Events</a>
                             <i class='bx bxs-chevron-down event-arrow arrow '></i>
                             <ul class="event-sub-menu sub-menu">
-                                <li><a href="#">Upcoming Events</a></li>
-                                <li><a href="#">Images</a></li>
-                                <li><a href="#">Videos</a></li>
+                                <li><a href="./events/event.html">Upcoming Events</a></li>
+                                <li><a href="/events/images.html">Images</a></li>
+                                <li><a href="/events/video.html">Videos</a></li>
                             </ul>
                         </li>
                         <li>
                             <a href="#">Opportunity</a>
                             <i class='bx bxs-chevron-down opportunity-arrow arrow '></i>
                             <ul class="opportunity-sub-menu sub-menu">
-                                <li><a href="#">Career</a></li>
+                                <li><a href="/opportunity/career.html">Career</a></li>
                             </ul>
                         </li>
                         <li>
                             <a href="#">Membership</a>
                             <i class='bx bxs-chevron-down membership-arrow arrow '></i>
                             <ul class="membership-sub-menu sub-menu">
-                                <li><a href="#">Career</a></li>
+                                <li><a href="/membership/lifemembership.html">Life membership</a></li>
+                                <li><a href="#">Contributions</a></li>
                             </ul>
                         </li>
 
@@ -133,16 +171,15 @@
     <!-- Swiper -->
     <div class="swper_banner">
         <div class="container py-5 ">
-            <h2 class="text-center">What's New</h2>
-            <div class="swiper mySwiper">
+            <h2 class="text-center element_text">What's New</h2>
+            <div class="swiper mySwiper mt-5">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide news_slider">
                         <div class="row">
                             <div class="col-12">
                                 <div class="position-relative overlay">
                                     <img src="./images/what new 4.png" alt="">
-                                    <p class=" position-absolute date_news translate-middle text-center">
-                                        14<span class="text-center">May-24024</span></p>
+                                    <p class=" position-absolute date_news translate-middle text-center">14<span class="text-center">May-24024</span></p>
                                 </div>
                                 <div class="des_pra">
                                     <h4>Contrary to popular belief</h4>
@@ -247,10 +284,8 @@
                         </div>
                     </div>
 
-
-
                 </div>
-                <div class="swiper-pagination"></div>
+                <div class="swiper-pagination mt-3"></div>
             </div>
         </div>
     </div>
@@ -371,14 +406,8 @@
                                     </div>
                                 </div>
 
-
-
-
-
-
-
                             </div>
-                            <div class="swiper-pagination"></div>
+                            <div class="swiper-pagination mt-3"></div>
                         </div>
                     </div>
                 </div>
@@ -388,7 +417,7 @@
     <!-- ===========================Contribute Now section=========================== -->
     <div class="contribute_now py-5">
         <div class="container py-5">
-            <h2 class="text-center">Contribute Now</h2>
+            <h2 class="text-center element_contibute">Contribute Now</h2>
             <p class="text-center px-5 mx-5 text-white">Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard
                 dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
@@ -454,10 +483,9 @@
 
     <!-- ===========================Our Sponsors====================== -->
 
-
     <div class="our_sponsors">
         <div class="container py-5 ">
-            <h2 class="text-center">Contribute Now</h2>
+            <h2 class="text-center element_contibute">Contribute Now</h2>
             <p class="text-center px-5 mx-5 text-white py-4">Lorem Ipsum is simply dummy text of the printing and
                 typesetting industry.
                 Lorem Ipsum has been the industry's standard
@@ -552,19 +580,16 @@
                         </div>
                     </div>
 
-
-
                 </div>
-                <div class="swiper-pagination"></div>
+                <div class="swiper-pagination mt-3"></div>
             </div>
         </div>
     </div>
 
-
     <!-- ---------------------------------istcosa gallery------------------------- -->
     <div class="istocosa_gallery">
         <div class="container py-5 ">
-            <h2 class="text-center">ISTCOSA Gallery</h2>
+            <h2 class="text-center element_text">ISTCOSA Gallery</h2>
             <p class="text-center px-5 mx-5  py-4">But I must explain to you how all this mistaken idea of denouncing
                 pleasure and praising pain was born and I will give
                 you a complete account of the system.</p>
@@ -686,15 +711,11 @@
                         </div>
                     </div>
 
-
-
-
                 </div>
-                <div class="swiper-pagination"></div>
+                <div class="swiper-pagination mt-3"></div>
             </div>
         </div>
     </div>
-
 
     <!-- ==============================Alumni============================== -->
     <div class="alumni bg-light">
@@ -702,7 +723,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="container py-5 ">
-                        <h2 class="text-center">Distinguished Alumni</h2>
+                        <h2 class="text-center element_text">Distinguished Alumni</h2>
                         <p class="text-center px-5 mx-5  py-4">But I must explain to you how all this mistaken idea of
                             denouncing pleasure and praising pain was born and I will give
                             you a complete account of the system.</p>
@@ -784,13 +805,8 @@
                                     </div>
                                 </div>
 
-
-
-
-
-
                             </div>
-                            <div class="swiper-pagination"></div>
+                            <div class="swiper-pagination mt-3"></div>
                         </div>
                     </div>
                 </div>
@@ -798,7 +814,6 @@
         </div>
     </div>
     <!-- ==============================footer================== -->
-
 
     <footer class="footer-main bg-dark p-0">
         <div class="container" style="max-width: 1600px;">
@@ -885,8 +900,7 @@
                 </div>
                 <div class="col-lg-6 col-xl-2 col-sm-12 col-xs-12 col-md-3 text-white footer_menu_strp">
                     <h3></h3>
-                    <p class="mt-5"><i class="fa fa-angle-double-right" aria-hidden="true"></i><a
-                            href=""><span>Mentor</span></a>
+             
                     </p>
                     <p><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href=""><span>Events</span></a>
                     </p>
@@ -926,7 +940,6 @@
             
                 </section>
 
-
     </footer>
     <script src="./js/custome.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -939,10 +952,10 @@
                 el: ".swiper-pagination",
                 clickable: true,
             },
-            // autoplay: {
-            //     delay: 2500,
-            //     disableOnInteraction: false,
-            // },
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
@@ -963,12 +976,10 @@
             }
         });
 
-
-
-
     </script>
     <script src="./js/header.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </body>
 
 </html>
+
