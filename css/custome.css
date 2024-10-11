@@ -1276,4 +1276,159 @@ img.flag_img {
     color: #6f0100;
     font-size: 20px;
 }
+/* -------------------------------career-banner-------------------------- */
+.career-banner{
+   background-image: url(/images/opportunity/banner\ image\ \(1\).jpg);
+  height: 300px;
+  width: 100%;
+  max-width: 100%;
+  padding: 32px 10px;
+  margin-top: 70px;
+}
+.apply_btn {
+    background: #6f0100;
+    border: none;
+    padding: 15px;
+}
 
+.apply_btn:hover {
+    background:transparent;
+    border: 1px solid #6f0100;
+    color: #6f0100;
+     padding: 15px;
+}
+
+
+/* ---------------------lifemember-banner---------------------- */
+.lifemember-banner{
+ background-image: url(/images/lifeMembers/banner\ image\ \(2\).jpg);
+  height: 300px;
+  width: 100%;
+  max-width: 100%;
+  padding: 32px 10px;
+  margin-top: 70px;
+}
+  .dots::before {
+            content: "";
+            width: 25px;
+            height: 25px;
+            background: #ffffff;
+            display: block;
+            top: 9.4em;
+            position: absolute;
+            left: 10.3em;
+            z-index: 2 !important;
+            border-radius: 100px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+
+        .pricing-table .ptable-single {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .ptable-item {
+            height: 100% !important;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+
+        .pricing-table .ptable-header,
+        .pricing-table .ptable-body,
+        .pricing-table .ptable-footer {
+            position: relative;
+            width: 100%;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .pricing-table .ptable-title,
+        .pricing-table .ptable-price,
+        .pricing-table .ptable-description,
+        .pricing-table .ptable-action {
+            position: relative;
+            width: 100%;
+            text-align: center;
+        }
+
+        .pricing-table .ptable-single {
+            background: #fff;
+        }
+
+        .pricing-table .ptable-header {
+            margin: 0 1px;
+            padding: 45px 0 65px 0;
+            width: auto;
+            background: #6f0100;
+        }
+
+        .pricing-table .ptable-header::before,
+        .pricing-table .ptable-header::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            border-bottom: 100px solid #fff;
+        }
+
+        .pricing-table .ptable-header::before {
+            right: 65%;
+            border-right: 28em solid transparent;
+        }
+
+        .pricing-table .ptable-header::after {
+            left: 32%;
+            border-left: 51em solid transparent;
+        }
+
+        .pricing-table .ptable-item.featured-item .ptable-header {
+            background: #6f0100;
+        }
+
+        .pricing-table .ptable-title h2 {
+            color: #ffffff;
+            font-size: 30px;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        .pricing-table .ptable-body {
+            padding: 20px 0;
+        }
+
+        .pricing-table .ptable-description ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .pricing-table .ptable-description ul li {
+            color: #2A293E;
+            font-size: 18px;
+            font-weight: 300;
+            letter-spacing: 1px;
+            padding: 7px;
+            border-bottom: 1px solid #dedede;
+        }
+
+        .pricing-table .ptable-description ul li:last-child {
+            border: none;
+        }
+
+        .pricing-table .ptable-footer {
+            padding-bottom: 30px;
+        }
+
+        .pricing-table .ptable-action a {
+            display: inline-block;
+            padding: 13px 41px;
+            color: #ffffff;
+            font-size: 17px;
+            font-weight: 300;
+            letter-spacing: 2px;
+            text-decoration: none;
+            background: #6f0100;
+            border-radius: 44px;
+            cursor: pointer;
+        }
