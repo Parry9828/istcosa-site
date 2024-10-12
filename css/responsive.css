@@ -1,5 +1,5 @@
 @media only screen and (max-width: 600px) {
-      .video_gallery_batch .card-img-overlay {
+  .video_gallery_batch .card-img-overlay {
     position: absolute;
     top: 0px !important;
     right: 0;
@@ -7,7 +7,7 @@
     left: 0;
     padding: var(--bs-card-img-overlay-padding);
     border-radius: var(--bs-card-inner-border-radius);
-}
+  }
   .second_banner h3.text-white {
     font-size: 30px;
     text-align: center;
@@ -67,10 +67,10 @@
     padding: 8px 20px;
     rotate: -30de;
   }
-.video_gallery_batch {
+  .video_gallery_batch {
     border-radius: 0px;
-}
-.dots::before {
+  }
+  .dots::before {
     content: "";
     width: 25px;
     height: 25px;
@@ -82,8 +82,7 @@
     z-index: 2 !important;
     border-radius: 100px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
- 
+  }
 }
 
 @media (max-width: 920px) {
@@ -115,7 +114,6 @@
     text-transform: uppercase;
     font-size: 15px;
   }
-  
 }
 @media only screen and (max-width: 1024px) {
   nav .navbar {
@@ -187,20 +185,19 @@
   .video_gallery_batch h5.text-uppercase {
     font-size: 17px;
   }
-         .dots::before {
-            content: "";
-            width: 25px;
-            height: 25px;
-            background: #ffffff;
-            display: block;
-            top: 6em;
-            position: absolute;
-            left: 6.8em !important;
-            z-index: 2 !important;
-            border-radius: 100px;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        }
-       
+  .dots::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    background: #ffffff;
+    display: block;
+    top: 9em;
+    position: absolute;
+    left: 7.2em !important;
+    z-index: 2 !important;
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
 }
 @media (max-width: 800px) {
   .navbar .bx-menu {
@@ -340,19 +337,18 @@
     left: 0;
     padding: var(--bs-card-img-overlay-padding);
     border-radius: var(--bs-card-inner-border-radius);
-}
-.pricing-table .ptable-title h2 {
+  }
+  .pricing-table .ptable-title h2 {
     color: #ffffff;
     font-size: 22px !important;
     font-weight: 300;
     letter-spacing: 2px;
     margin: 0px !important;
     padding: 0px 20px;
-}
+  }
 }
 @media (max-width: 370px) {
   nav .navbar .nav-links {
     max-width: 100%;
   }
 }
-

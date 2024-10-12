@@ -843,14 +843,14 @@ span.member_id {
 }
 
 .alumin_info h5.card-title {
-  font-size: 18px;
+  font-size: 17px;
   color: #000;
   font-weight: 500;
   font-family: poppins;
 }
 .alumin_name_cards img {
   width: 100%;
-  height: 28vh;
+  height: 20em;
 }
 
 .principals_contribute {
@@ -889,7 +889,7 @@ span.member_id {
   margin-top: 70px;
 }
 .card.alumin_name_cards {
-  height: 36vh;
+  /* height: 36vh; */
   max-height: 100%;
 }
 .card.alumin_name_cards h3 {
@@ -1007,7 +1007,8 @@ img.flag_img {
   color: #6f0100;
 }
 .lifeMembers_cards img {
-  max-height: 300px;
+   width: 100%;
+  height: 17em;
 }
 
 /* -----------------Mentor Members---------------- */
