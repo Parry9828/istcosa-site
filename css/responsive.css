@@ -1,4 +1,15 @@
 @media only screen and (max-width: 600px) {
+  .hero_banners i.bx {
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding:4px;
+}
+.hero_banners h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
   .video_gallery_batch .card-img-overlay {
     position: absolute;
     top: 0px !important;
@@ -116,6 +127,10 @@
   }
 }
 @media only screen and (max-width: 1024px) {
+  .hero_banners h3 {
+    font-size: 46px;
+    font-weight: 500;
+}
   nav .navbar {
     height: 100%;
     width: 100%;
@@ -200,6 +215,7 @@
   }
 }
 @media (max-width: 800px) {
+  
   .navbar .bx-menu {
     display: block;
   }

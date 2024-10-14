@@ -1,0 +1,18 @@
+.icon-overlay a {
+  position: absolute;
+  bottom: 69px;
+  right: 0px;
+  font-size: 24px;
+  color: #ffffff; /* Adjust the color as needed */
+  background: #6f0100;
+  padding: 8px 20px;
+  rotate: -30de;
+}
+.icon-overlay i.fas.fa-arrow-right {
+  rotate: -30deg;
+}
+.icon-overlay:hover i.fas.fa-arrow-right {
+  rotate: -0deg !important;
+  transition:.3s;
+  transition-delay: .4s !important;
+}
