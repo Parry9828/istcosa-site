@@ -1,4 +1,44 @@
 @media only screen and (max-width: 600px) {
+      .contribute_now .contributes1,
+.contributes2 {
+  border-radius: 0 0 0 0px;
+  padding-bottom: 20px;
+}
+.about_us_istcosa h2 {
+    color: #fff;
+    font-size: 34px;
+    font-family: "Poppins";
+    
+}
+.about_us_istcosa p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 32px;
+    font-weight: 200;
+    
+    }
+    .swper_banner h2 {
+  color: #000000;
+  font-size: 35px;
+  font-family: "Poppins";
+}
+.lifemember2 h2.text-center {
+  font-size: 35px;
+  font-weight: 500;
+}
+.lifemember1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.celebrating .batch {
+    background: #ebe9e9;
+    padding: 10px 20px;
+    border-radius: 10px;
+    max-width: 90%;
+    width: 100% !important;
+}
   .hero_banners i.bx {
     font-size: 20px;
     color: #fff;
@@ -95,8 +135,14 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 }
-
 @media (max-width: 920px) {
+  .celebrating .batch {
+    background: #ebe9e9;
+    padding: 10px 20px;
+    border-radius: 10px;
+    max-width: 100%;
+    width: 100% !important;
+}
   nav .navbar {
     max-width: 100%;
     padding: 0 25px;
@@ -127,9 +173,18 @@
   }
 }
 @media only screen and (max-width: 1024px) {
+  .contributes1 img {
+    max-width: 100%;
+    height: -webkit-fill-available;
+}
   .hero_banners h3 {
     font-size: 46px;
     font-weight: 500;
+}
+.our_sponsors h2.text-center {
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
 }
   nav .navbar {
     height: 100%;
@@ -140,7 +195,19 @@
     margin: auto;
     flex-wrap: nowrap;
   }
-
+.istocosa_gallery h2.text-center {
+    font-size: 40px;
+    font-weight: 500;
+}
+.alumni h2.text-center {
+    font-size: 40px;
+    font-weight: 500;
+}
+.celebrating h2.text-center {
+    font-size: 40px;
+    font-weight: 700;
+    color: #6f0100;
+}
   button.login_btn {
     background: #6f0100;
     color: #fff;
@@ -219,6 +286,10 @@
   .navbar .bx-menu {
     display: block;
   }
+.hero_banners h3 {
+        font-size: 37px;
+        font-weight: 500;
+    }
 
   nav .navbar .nav-links {
     position: fixed;
@@ -363,8 +434,12 @@
     padding: 0px 20px;
   }
 }
-@media (max-width: 370px) {
+@media (max-width: 375px) {
   nav .navbar .nav-links {
     max-width: 100%;
   }
+      .video_gallery_batch {
+        border-radius: 0px;
+        padding-bottom: 60px;
+    }
 }
