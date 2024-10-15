@@ -23,18 +23,115 @@
 </head>
 
 <body>
+
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" data-bs-backdrop="static" tabindex="-1" data-bs-keyboard="false"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" style="width:40%; max-width: 100%;">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="file" class="form-control" aria-label="file example" required>
+
+                </div>
+                <div class="col-12 mb-3 d-md-flex justify-content-md-end p-2">
+                    <a href="" type="submit" class="btn_members px-5">Submit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal post a job -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered" style="width: 75%; max-width: 100%;">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class=" col-lg-4 mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Company Name</label>
+
+                                <input type="text" class="form-control py-3" id="" placeholder="Company Name"
+                                    aria-describedby="">
+                            </div>
+                            <div class="col-lg-4 mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Job Location</label>
+
+                                <input type="text" class="form-control py-3" id="" placeholder="Job Location"
+                                    aria-describedby="">
+                            </div>
+                            <div class="col-lg-4 mb-3 form-check">
+                                <label for="exampleFormControlInput1" class="form-label">Number Of Vacancies</label>
+
+                                <input type="text" class="form-control py-3" id="" placeholder="Number Of Vacancies"
+                                    aria-describedby="">
+
+                            </div>
+                            <div class=" col-lg-4 mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Salary</label>
+
+                                <input type="text" class="form-control py-3" id="" placeholder="Salary"
+                                    aria-describedby="">
+                            </div>
+                            <div class="col-lg-4 mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Phone No</label>
+
+                                <input type="text" class="form-control py-3" id="" placeholder="Phone No"
+                                    aria-describedby="emailHelp">
+                            </div>
+                            <div class="col-lg-4 mb-3 form-check">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+
+                                <input type="email" class="form-control py-3" id="" placeholder="Email"
+                                    aria-describedby="emailHelp">
+
+                            </div>
+                            <div class="col-lg-12 mb-3 form-check p-3">
+                                <label for="exampleFormControlInput1" class="form-label">Job Description</label>
+
+                                <textarea class="form-control py-3" id="exampleFormControlTextarea1"
+                                    placeholder="Job Description" rows="3"></textarea>
+                            </div>
+                            <div class="col-12 mb-3 d-md-flex justify-content-md-end">
+                                <a href="" type="submit" class="btn_members px-5">APPLY NOW</a>
+                            </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- -------post a resume  -->
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal -->
+
+
+
+
+    </div>
     <!-- ========================navbar start================================== -->
     <div class="container">
         <nav>
             <div class="navbar">
                 <i class='bx bx-menu'></i>
-                <div class="logo"><a href="/index.html"><img class="logo_img" src="https://www.istcosa.com/assets/images/Logo.png"
-                            alt=""></a>
+                <div class="logo"><a href="/index.html"><img class="logo_img"
+                            src="https://www.istcosa.com/assets/images/Logo.png" alt=""></a>
                 </div>
                 <div class="nav-links">
                     <div class="sidebar-logo">
-                        <a href="/index.html"><span class="logo-name"><img class="logo_img" src="https://www.istcosa.com/assets/images/Logo.png"
-                                alt=""></span></a>
+                        <a href="/index.html"><span class="logo-name"><img class="logo_img"
+                                    src="https://www.istcosa.com/assets/images/Logo.png" alt=""></span></a>
                         <i class='bx bx-x'></i>
                     </div>
                     <ul class="links">
@@ -94,12 +191,12 @@
                                 <li><a href="#">Contributions</a></li>
                             </ul>
                         </li>
-    
+
                     </ul>
                 </div>
                 <span class="d-flex"><button class="login_btn">Sign up/Sign in</button>
                     <div class="search-box">
-    
+
                         <i class='bx bx-search'></i>
                         <div class="input-box">
                             <input type="text" placeholder="Search...">
@@ -124,6 +221,13 @@
                                 </li>
                             </ol>
                         </navs>
+                        <div class="mt-5">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                                class="btn_members mt-auto px-5">POST A JOB</a> <span class="mx-4"><a href="#"
+                                    class="btn_members mt-aut px-4" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">POST A YOUR RESUME</a></span>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -131,7 +235,8 @@
     </div>
     <div class="container py-5">
         <h3>Job Opening</h3>
-        <p class="fs-5">Netsmartz is looking for a "CNC Engineer" with knowledge in reading mechanical drawings and expertise in
+        <p>Netsmartz is looking for a "CNC Engineer" with knowledge in reading mechanical drawings and
+            expertise in
             programming
             machining in 3, 4 and 5 axis machines, CNC milling of metal and plastic products. Also knowledge of CNC
             milling of metal
@@ -139,7 +244,7 @@
             experience of
             working on solid cam (it's mandatory).</p>
     </div>
-    <section class="apply_job_form bg-light">
+    <section class="apply_job_form">
         <div class="container">
             <div class="row py-4">
                 <div class="col-xl-6 col-lg-6 col-md-12 d-flex flex-column justify-content-center ">
@@ -150,111 +255,77 @@
                     <p><strong>Contact Person:- </strong>Mr. Mayur Rana (+91 9646741087)</p>
                     <p><strong>Website:- </strong>appworx.in</p>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 p-lg-5">
-                    <form class="row g-1 bg-white p-4">
-                        <h2 class="text-center pb-3 element_text">Job Apply Form</h2>
-                        <div class="col-md-12">
-                            <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingInput exampleFormControlInput1"
-                                    placeholder="Full Name">
-                                <label for="floatingInput">Full Name</label>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-floating mb-3">
-                                <input type="email" class="form-control" id="floatingInputValue"
-                                    placeholder="name@example.com" value="">
-                                <label for="floatingInputValue">Your Email</label>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12">
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" placeholder="Your Massag" id="floatingTextarea2"
-                                    style="height: 100px"></textarea>
-                                <label for="floatingTextarea2">Your Massage</label>
-                            </div>
-                        </div>
-                        <div class="col-md-12 mt-0">
-                            <label for="formFileSm" class="form-label">Upload Resume</label>
-                            <div class="border px-2 py-2"><input class="form-control border-0" id="formFileSm" type="file"></div>
-                        </div>
-                        <div class="col-12 mt-4">
-                            <div class="d-grid gap-2">
-                                <button class="btn btn-primary apply_btn" type="button">Apply Now</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
             </div>
         </div>
     </section>
 
     <div class="container mt-5">
-        <p class="fs-5"><strong>Note -</strong>The company will provide all the amenities i.e. travelling , stay arrangement & meals at Israel location. The
-        candidate must have a valid <br> passport while applying for this job.
-</p>
+        <p><strong>Note -</strong>The company will provide all the amenities i.e. travelling , stay
+            arrangement & meals at Israel location. The
+            candidate must have a valid <br> passport while applying for this job.
+        </p>
     </div>
 
     <div class="container my-5">
         <div class="row gy-4 mt-4">
             <div class="col-lg-6 col-xl-4 col-md-6 col-sm-12 mb-4">
-                <div class="bg-light image_gallery_contribute h-100">
+                <div class="bg-light common_three_colum_strip h-100">
                     <div class="row g-0">
                         <div class="col-lg-6 p-0">
-                            <img src="/images/Contribute istcosa.png" alt="" class="img-fluid w-100 h-100">
+                            <img src="/images/S1.png" alt="" class="img-fluid w-100 h-100">
                         </div>
                         <div class="col-lg-6 p-3 text-center d-flex flex-column justify-content-center">
                             <h3 class="text-center">Contribute ISTCOSA</h3>
-                    <p class="pb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem
-                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                        printer.
-                    
-                    </p>
+                            <p class="pb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer.
+
+                            </p>
                             <a href="#" class="btn_members mt-auto">contribute NOW</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 col-xl-4 col-md-6 col-sm-12 mb-4">
-                <div class="bg-light past_event_contribute h-100">
+                <div class="bg-light common_three_colum_strip h-100">
                     <div class="row g-0">
                         <div class="col-lg-6 p-0">
-                            <img src="/images/Contribute istcosa.png" alt="" class="img-fluid w-100 h-100">
+                            <img src="/images/S2.png" alt="" class="img-fluid w-100 h-100">
                         </div>
                         <div class="col-lg-6 p-3 text-center d-flex flex-column justify-content-center">
                             <h3 class="text-center">Contribute ISTCOSA</h3>
-                <p class="pb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem
-                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                    printer.
-                
-                </p>
+                            <p class="pb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer.
+
+                            </p>
                             <a href="#" class="btn_members mt-auto">contribute NOW</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 col-xl-4 col-md-6 col-sm-12 mb-4">
-                <div class="bg-light past_event_contribute h-100">
+                <div class="bg-light common_three_colum_strip h-100">
                     <div class="row g-0">
                         <div class="col-lg-6 p-0">
-                            <img src="/images/Contribute istcosa.png" alt="" class="img-fluid w-100 h-100">
+                            <img src="/images/S3.png" alt="" class="img-fluid w-100 h-100">
                         </div>
                         <div class="col-lg-6 p-3 text-center d-flex flex-column justify-content-center">
                             <h3 class="text-center">Contribute ISTCOSA</h3>
-                    <p class="pb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem
-                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                        printer.
-                    
-                    </p>
+                            <p class="pb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer.
+
+                            </p>
                             <a href="#" class="btn_members mt-auto">contribute NOW</a>
                         </div>
                     </div>
                 </div>
             </div>
+
 
         </div>
     </div> <!-- ==============================footer================== -->
@@ -388,4 +459,3 @@
 </body>
 
 </html>
-
