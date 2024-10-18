@@ -3,7 +3,14 @@
 
 /* ---------common--------------------- */
 /* ---------common--------------------- */
-
+.bg_pattrn{
+ position: relative;
+  display: flex;
+  flex-direction: column;
+  pointer-events: auto;
+  background-image: url(../images/bg-pattrn.jpg)
+  
+}
 .element_text {
   display: block;
   padding-bottom: 3px;
@@ -121,6 +128,8 @@ nav .navbar .links li a {
   font-size: 15px;
   font-weight: 500;
 }
+
+
 .links li:hover .htmlcss-arrow,
 .links li:hover .js-arrow,
 .links li:hover .event-arrow,
@@ -178,9 +187,7 @@ nav .navbar .links li:hover .membership-sub-menu {
 .navbar .links li .sub-menu .more-arrow {
   line-height: 40px;
 }
-.navbar .links li .htmlCss-more-sub-menu {
-  /* line-height: 40px; */
-}
+
 .navbar .links li .sub-menu .more-sub-menu {
   position: absolute;
   top: 0;
@@ -316,7 +323,7 @@ span.swiper-pagination-bullet {
   color: #6f0100;
 }
 .her-banner {
-  background-image: url(/images/banner_bg.jpg);
+  background-image: url(../images/banner_bg.jpg);
   height: auto;
   width: 100%;
   max-width: 100%;
@@ -417,7 +424,7 @@ a.btn_members {
   border-radius: 10px;
 }
 .swper_banner {
-  background-image: url(/images/bg1.jpg);
+  background-image: url(../images/bg1.jpg);
 }
 
 .swiper-wrapper {
@@ -506,7 +513,7 @@ a.btn_members {
 
 /* =================about section=============== */
 .about_us_istcosa {
-  background-image: url(/images/about\ bg.jpg);
+  background-image: url(../images/about-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -525,7 +532,7 @@ a.btn_members {
 
 /* =================Contribute Now section=============== */
 .contribute_now {
-  background-image: url(/images/Contribute\ Now\ bg.jpg);
+  background-image: url(../images/Contribute\ Now\ bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -551,7 +558,7 @@ a.btn_members {
 
 /* -------------------------celebrating------------------------- */
 .celebrating {
-  background-image: url(/images/Celebrating\ bg.jpg);
+  background-image: url(../images/Celebrating\ bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -568,7 +575,7 @@ a.btn_members {
 
 /* -------------------------our_sponsors----------------------------- */
 .our_sponsors {
-  background-image: url(/images/Our\ Sponsors\ bg.jpg);
+  background-image: url(../images/Our\ Sponsors\ bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -645,7 +652,7 @@ img.mt-3.logo_company {
 
 /* ---------------------------lifemembers-------------------------------- */
 .lifemember1 {
-  background-image: url(/images/join\ istcosa\ for\ a\ lifetime\ bg.png);
+  background-image: url(../images/join\ istcosa\ for\ a\ lifetime\ bg.png);
 }
 .alumni_slider {
   flex-shrink: 0;
@@ -855,7 +862,7 @@ span.member_id {
 
 /* ------------------------------about us---------------------- */
 .about-banner {
-  background-image: url(/images/about\ bg.jpg);
+  background-image: url(../images/about-bg.jpg);
   height: 300px;
   width: 100%;
   max-width: 100%;
@@ -887,7 +894,7 @@ span.member_id {
 
 /* ------------------------historycss---------------------- */
 .history-banner {
-  background-image: url(/images/history_banner.jpg);
+  background-image: url(../images/history_banner.jpg);
   height: 300px;
   width: 100%;
   max-width: 100%;
@@ -897,7 +904,7 @@ span.member_id {
   background-repeat: no-repeat;
 }
 .history_background {
-  background-image: url(/images/history1.jpg);
+  background-image: url(../images/history1.jpg);
   height: auto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -927,7 +934,7 @@ span.member_id {
 
 /* ------------------------principals------------------- */
 .principals-banner {
-  background-image: url(/images/banner_principals.jpg);
+  background-image: url(../images/banner_principals.jpg);
   height: 300px;
   width: 100%;
   max-width: 100%;
@@ -965,7 +972,7 @@ span.member_id {
 /* ------------------------Presidents-------------------- */
 
 .presidents-banner {
-  background-image: url(/images/president/president_banner.jpg);
+  background-image: url(../images/president/president_banner.jpg);
   height: 300px;
   width: 100%;
   max-width: 100%;
@@ -982,7 +989,7 @@ span.member_id {
 }
 /* -------------------------Patrons-banner------------------ */
 .Patrons-banner {
-  background-image: url(/images/patrons/banner.jpg);
+  background-image: url(../images/patrons/banner.jpg);
   height: 300px;
   width: 100%;
   max-width: 100%;
@@ -991,7 +998,7 @@ span.member_id {
 }
 
 .commitee-banner {
-  background-image: url(/images/Committee-Members/banner.jpg);
+  background-image: url(../images/Committee-Members/banner.jpg);
   height: 300px;
   width: 100%;
   max-width: 100%;
@@ -1021,7 +1028,7 @@ span.member_id {
 
 /* ----------------------coordinators-------------- */
 .coordinators-banner {
-  background-image: url(/images/coordinators/BANNER\ 2.jpg);
+  background-image: url(../images/coordinators/BANNER\ 2.jpg);
   height: 300px;
   width: 100%;
   max-width: 100%;
@@ -1029,7 +1036,7 @@ span.member_id {
   margin-top: 70px;
 }
 .chief_coordinator_bg {
-  background-image: url(/images/coordinators/bg\ 1.jpg);
+  background-image: url(../images/coordinators/bg\ 1.jpg);
   width: 100%;
   max-width: 100%;
   background-repeat: no-repeat;
@@ -1080,7 +1087,7 @@ img.flag_img {
 
 /* ---------------------------------lifeMembers-------------------------- */
 .lifeMembers-banner {
-  background-image: url(/images/lifeMembers/banner\ \ 2.jpg);
+  background-image: url(../images/lifeMembers/banner\ \ 2.jpg);
   height: 300px;
   width: 100%;
   max-width: 100%;
@@ -1097,7 +1104,7 @@ img.flag_img {
 
 /* -----------------Mentor Members---------------- */
 .mentorMembers-banner {
-  background-image: url(/images/mentorMembers/banner\ \ 1.jpg);
+  background-image: url(../images/mentorMembers/banner\ \ 1.jpg);
   height: 300px;
   width: 100%;
   max-width: 100%;
@@ -1113,7 +1120,7 @@ img.flag_img {
 
 /* -----------------------------------Upcoming----------------------- */
 .event-banner {
-  background-image: url(/images/lifeMembers/banner\ \ 2.jpg);
+  background-image: url(../images/lifeMembers/banner\ \ 2.jpg);
   height: 300px;
   width: 100%;
   max-width: 100%;
@@ -1214,7 +1221,7 @@ img.flag_img {
   font-weight: 600;
 }
 .vanue_date {
-  background-image: url(/images/events/bg\ 2.jpg);
+  background-image: url(../images/events/bg\ 2.jpg);
 }
 .vanue_date i.fa.fa {
   font-size: 50px;
@@ -1276,7 +1283,7 @@ img.flag_img {
   rotate: -30deg;
 }
 .past_event-banner {
-  background-image: url(/images/events/image\ banner.jpg);
+  background-image: url(../images/events/image\ banner.jpg);
   height: 300px;
   width: 100%;
   max-width: 100%;
@@ -1301,7 +1308,7 @@ i.fa.fa-calendar {
 
 /* --------------------------video------------------------ */
 .video-banner {
-  background-image: url(/images/events/banner\ image1.jpg);
+  background-image: url(../images/events/banner\ image1.jpg);
   height: 300px;
   width: 100%;
   max-width: 100%;
@@ -1334,7 +1341,7 @@ i.fa.fa-calendar {
 }
 /* -------------------------------career-banner-------------------------- */
 .career-banner {
-  background-image: url(/images/opportunity/banner\ image\ \(1\).jpg);
+  background-image: url(../images/opportunity/banner1.jpg);
   height: 300px;
   width: 100%;
   max-width: 100%;
@@ -1356,7 +1363,7 @@ i.fa.fa-calendar {
 
 /* ---------------------lifemember-banner---------------------- */
 .lifemember-banner {
-  background-image: url(/images/lifeMembers/banner\ image\ \(2\).jpg);
+  background-image: url(../images/lifeMembers/banner-image.jpg);
   height: 300px;
   width: 100%;
   max-width: 100%;
@@ -1364,23 +1371,23 @@ i.fa.fa-calendar {
   margin-top: 70px;
 }
 .membership_join .first_heading {
-    background: #6f0100;
-    color: #fff;
-    padding: 16px;
+  background: #6f0100;
+  color: #fff;
+  padding: 16px;
 }
 .membership_join ul {
-    text-decoration: none;
-    list-style: none;
-    line-height: 50px;
-    padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  line-height: 50px;
+  padding: 0px;
 }
 /* -------------------------------poppup modal----------------------- */
 .wrapper {
   max-width: 100%;
-    background: #fff;
-    padding: 0px 30px 50px 30px;
-    border-radius: 5px;
-    overflow: hidden;
+  /* background: #fff; */
+  padding: 0px 30px 50px 30px;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .wrapper .title-text {
@@ -1473,7 +1480,10 @@ input[type="radio"] {
   width: 100%;
   transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-
+.signup_login_forms {
+    width: 50%;
+    max-width: 100%;
+}
 .form-inner form .field {
   height: 50px;
   width: 100%;
@@ -1525,129 +1535,129 @@ form .field input[type="submit"] {
   cursor: pointer;
   background: #6f0100;
 }
-    input::-webkit-outer-spin-button,
-    input::-webkit-inner-spin-button {
-        -webkit-appearance: none;
-    }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
 
-    #signUpForm {
-        max-width: 100%;
-        background-color: #ffffff;
-        padding: 0px;
-        border-radius: 12px;
-    }
+#signUpForm {
+  max-width: 100%;
+  background-color: #ffffff;
+  padding: 0px;
+  border-radius: 12px;
+}
 
-    #signUpForm .form-header {
-        gap: 5px;
-        text-align: center;
-        font-size: .9em;
-    }
+#signUpForm .form-header {
+  gap: 5px;
+  text-align: center;
+  font-size: 0.9em;
+}
 
-    #signUpForm .form-header .stepIndicator {
-        position: relative;
-        flex: 1;
-        padding-bottom: 30px;
-    }
+#signUpForm .form-header .stepIndicator {
+  position: relative;
+  flex: 1;
+  padding-bottom: 30px;
+}
 
-    #signUpForm .form-header .stepIndicator.active {
-        font-weight: 600;
-    }
+#signUpForm .form-header .stepIndicator.active {
+  font-weight: 600;
+}
 
-    #signUpForm .form-header .stepIndicator.finish {
-        font-weight: 600;
-        color: #6f0100;
-    }
+#signUpForm .form-header .stepIndicator.finish {
+  font-weight: 600;
+  color: #6f0100;
+}
 
-    #signUpForm .form-header .stepIndicator::before {
-        content: "";
-        position: absolute;
-        left: 50%;
-        bottom: 0;
-        transform: translateX(-50%);
-        z-index: 9;
-        width: 20px;
-        height: 20px;
-        background-color: #b77575;
-        border-radius: 50%;
-        border: 3px solid #d5caca;
-    }
+#signUpForm .form-header .stepIndicator::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  z-index: 9;
+  width: 20px;
+  height: 20px;
+  background-color: #b77575;
+  border-radius: 50%;
+  border: 3px solid #d5caca;
+}
 
 #signUpForm .form-header .stepIndicator.active::before {
-    background-color: #b77575;
-    border: 3px solid #d5caca;
+  background-color: #b77575;
+  border: 3px solid #d5caca;
 }
 
 #signUpForm .form-header .stepIndicator.finish::before {
-    background-color: #6f0100;
-    border: 3px solid #d5caca;
+  background-color: #6f0100;
+  border: 3px solid #d5caca;
 }
 
-    #signUpForm .form-header .stepIndicator::after {
-        content: "";
-        position: absolute;
-        left: 50%;
-        bottom: 8px;
-        width: 100%;
-        height: 3px;
-        background-color: #f3f3f3;
-    }
+#signUpForm .form-header .stepIndicator::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 8px;
+  width: 100%;
+  height: 3px;
+  background-color: #f3f3f3;
+}
 
-    #signUpForm .form-header .stepIndicator.active::after {
-        background-color: #b77575;
-    }
+#signUpForm .form-header .stepIndicator.active::after {
+  background-color: #b77575;
+}
 
-    #signUpForm .form-header .stepIndicator.finish::after {
-        background-color: #b77575;
-    }
+#signUpForm .form-header .stepIndicator.finish::after {
+  background-color: #b77575;
+}
 
-    #signUpForm .form-header .stepIndicator:last-child:after {
-        display: none;
-    }
+#signUpForm .form-header .stepIndicator:last-child:after {
+  display: none;
+}
 
-    #signUpForm input {
-        padding: 15px 20px;
-        width: 100%;
-        font-size: 1em;
-        border: 1px solid #e3e3e3;
-        border-radius: 5px;
-    }
+#signUpForm input {
+  padding: 15px 20px;
+  width: 100%;
+  font-size: 1em;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+}
 
-    #signUpForm input:focus {
-        border-color: #6f0100;
-        outline: 0;
-    }
+#signUpForm input:focus {
+  border-color: #6f0100;
+  outline: 0;
+}
 
-    #signUpForm input.invalid {
-        border: 1px solid #ffaba5;
-    }
+#signUpForm input.invalid {
+  border: 1px solid #ffaba5;
+}
 
-    #signUpForm .step {
-        display: none;
-    }
+#signUpForm .step {
+  display: none;
+}
 
-    #signUpForm .form-footer {
-        overflow: auto;
-        gap: 20px;
-    }
+#signUpForm .form-footer {
+  overflow: auto;
+  gap: 20px;
+}
 
-    #signUpForm .form-footer button {
-        background-color: #6f0100;
-        border: 1px solid #6f0100 !important;
-        color: #ffffff;
-        border: none;
-        padding: 13px 30px;
-        font-size: 1em;
-        cursor: pointer;
-        border-radius: 5px;
-        flex: 1;
-        margin-top: 5px;
-    }
+#signUpForm .form-footer button {
+  background-color: #6f0100;
+  border: 1px solid #6f0100 !important;
+  color: #ffffff;
+  border: none;
+  padding: 13px 30px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  flex: 1;
+  margin-top: 5px;
+}
 
-    #signUpForm .form-footer button:hover {
-        opacity: 0.8;
-    }
+#signUpForm .form-footer button:hover {
+  opacity: 0.8;
+}
 
-    #signUpForm .form-footer #prevBtn {
-    background-color: #fff;
-    color: #6f0100;
+#signUpForm .form-footer #prevBtn {
+  background-color: #fff;
+  color: #6f0100;
 }
