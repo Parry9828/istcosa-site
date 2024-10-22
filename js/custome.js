@@ -226,13 +226,25 @@ let htmlcssArrow = document.querySelector(".htmlcss-arrow");
 htmlcssArrow.onclick = function () {
   navLinks.classList.toggle("show1");
 };
-let moreArrow = document.querySelector(".more-arrow");
-moreArrow.onclick = function () {
-  navLinks.classList.toggle("show2");
-};
+// let moreArrow = document.querySelector(".more-arrow");
+// moreArrow.onclick = function () {
+//   navLinks.classList.toggle("show2");
+// };
 let jsArrow = document.querySelector(".js-arrow");
 jsArrow.onclick = function () {
   navLinks.classList.toggle("show3");
+};
+let eventArrow = document.querySelector(".event-arrow");
+eventArrow.onclick = function () {
+  navLinks.classList.toggle("show4");
+};
+let opportunityArrow = document.querySelector(".opportunity-arrow");
+opportunityArrow.onclick = function () {
+  navLinks.classList.toggle("show5");
+};
+let membershipArrow = document.querySelector(".membership-arrow");
+membershipArrow.onclick = function () {
+  navLinks.classList.toggle("show6");
 };
 
         
