@@ -1,6 +1,3 @@
-
-
-
 const loginForm = document.querySelector("form.login");
 
 const signupForm = document.querySelector("form.signup");
@@ -246,5 +243,3 @@ let membershipArrow = document.querySelector(".membership-arrow");
 membershipArrow.onclick = function () {
   navLinks.classList.toggle("show6");
 };
-
-        
